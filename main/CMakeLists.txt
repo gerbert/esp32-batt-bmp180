@@ -1,0 +1,4 @@
+file(GLOB_RECURSE COMPONENT_SRCS RELATIVE ${PROJECT_SOURCE_DIR} "*.c")
+set(COMPONENT_ADD_INCLUDEDIRS ". include")
+
+register_component()
